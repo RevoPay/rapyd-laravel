@@ -246,9 +246,9 @@ class DataSet extends Widget
 
                 //limit-offset
                 if (isset($this->limit)){
-                    $this->paginator = $this->query->paginate($this->limit, ['*'], 'page'.$this->cid);
+                    $this->paginator = $this->query->simplePaginate($this->limit, ['*'], 'page'.$this->cid);
                     $this->data = $this->paginator;
-                    $this->total_rows = $this->paginator->total();
+                    $this->total_rows = null;
                 } else {
                     $this->data = $this->query->get();
                     $this->total_rows = count($this->data);
