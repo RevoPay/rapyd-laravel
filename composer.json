@@ -1,14 +1,8 @@
 {
-    "name": "zofe/rapyd",
+    "name": "RevoPay/rapyd-laravel",
     "description": "crud widgets for laravel, to make an admin in few lines of code",
-    "homepage": "https://github.com/zofe/rapyd-laravel",
+    "homepage": "https://github.com/RevoPay/rapyd-laravel",
     "keywords": ["laravel", "crud", "rapyd", "administrator", "admin", "backend", "datatable", "form"],
-    "authors": [
-        {
-            "name": "zofe",
-            "email": "felice.ostuni@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5.0",
